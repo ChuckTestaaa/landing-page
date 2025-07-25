@@ -39,6 +39,8 @@ header {
   font-weight: 900px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 .hero p {
   font-size: 18px;
