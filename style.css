@@ -93,6 +93,12 @@ header .logo {
   font-weight: 900;
 }
 
+.information {
+  display: flex;
+  justify-content: center;
+  
+}
+
 
 
 
