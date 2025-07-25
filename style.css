@@ -42,13 +42,26 @@ header {
   justify-content: center;
   align-items: center;
 }
-.hero p {
+.hero p{
   font-size: 18px;
   color: #e5e7eb
 }
 
 .right .image {
   background-color: #e5e7eb;
+}
+
+button {
+  background-color: #3882f6;
+}
+
+.links a{
+  color:#e5e7eb
+  
+}
+
+ul {
+  text-decoration: none;
 }
 
 
