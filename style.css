@@ -23,7 +23,11 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  padding: 0px 200px 0px 200px;
+  
 }
+
 
 *{
   font-family: roboto, sans-serif;
@@ -35,13 +39,12 @@ header {
 }
 
 .hero .main {
-  font-size: 48px;
-  color: #f9faf8;
-  
+  padding: 200px;
   display: flex;
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  gap: 50px;
 }
 .hero p{
   font-size: 18px;
@@ -77,8 +80,18 @@ ul {
 }
 
 .hero .title {
-  font-weight:900;
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
 }
+
+header .logo {
+  font-weight: 900;
+}
+
+
+
+
 
 
 
