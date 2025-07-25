@@ -103,6 +103,11 @@ header .logo {
   display: flex;
 }
 
+.information .box{
+  width: 100px;
+  height: 100px;
+}
+
 
 
 
