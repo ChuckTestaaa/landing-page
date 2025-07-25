@@ -93,11 +93,12 @@ header .logo {
   font-weight: 900;
 }
 
-.information {
+.information-section {
   display: flex;
   justify-content: center;
-  
+
 }
+
 
 
 
