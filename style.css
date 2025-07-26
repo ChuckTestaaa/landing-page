@@ -1,6 +1,6 @@
 body {
   display: flex;
-  flex-direction: column;
+  flex-direction: column;  
 }
 .hero {
   display: flex;
@@ -158,20 +158,29 @@ header .logo {
   background-color: #e5e7eb;
   display: flex;
   flex-direction: column;
+  align-self: stretch;
 }
 
 .quote{
+  display: flex;
+  flex-direction: column;
+  flex: 0 0 auto;
+  max-width: 50%;
+  align-self: center;
+  padding: 200px;
   
 }
 
 .quotee{
   align-self: flex-end;
+  font-weight: bold;
 }
 
 .quote-text{
   font-size: 36px;
   font-weight:lighter;
-  font-style: italic 
+  font-style: italic;
+  
 }
 
 
