@@ -95,18 +95,66 @@ header .logo {
 
 .information-section {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+
 
 }
 
-.container {
-  display: flex;
-}
+
 
 .information .box{
-  width: 100px;
-  height: 100px;
+ 
+ 
+  border-style: solid;
+  border-color:#3882f6;
+  border-radius: 10px;
+  flex: 1;
+
+
 }
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding: 0px 150px 150px 150px;
+}
+.information-section .header {
+  font-size: 36px;
+  color: #1f2937;
+  font-weight: 900;
+  padding: 50px;
+}
+
+.information p {
+  text-align: center;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  font-size: 18px;
+  color: #5e5e5f;
+  width: 200px;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-grow: 0;
+  width: 100%;
+  max-width: 350px;
+  padding: 20px;
+  
+}
+
+.information .box {
+  width: 200px;
+  height: 200px;
+  flex: 0 0 auto;
+  align-self: stretch;
+}
+
+
 
 
 
