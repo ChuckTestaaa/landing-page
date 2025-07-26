@@ -154,6 +154,26 @@ header .logo {
   align-self: stretch;
 }
 
+.quote-section{
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+}
+
+.quote{
+  
+}
+
+.quotee{
+  align-self: flex-end;
+}
+
+.quote-text{
+  font-size: 36px;
+  font-weight:lighter;
+  font-style: italic 
+}
+
 
 
 
