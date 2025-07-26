@@ -235,6 +235,11 @@ footer{
   color: #e5e7eb;
 }
 
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
 
 
 
