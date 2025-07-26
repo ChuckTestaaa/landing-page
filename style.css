@@ -224,8 +224,18 @@ header .logo {
 }
 
 footer{
-  align-self: center;
+  align-self: stretch;
+  background-color: #1f2937;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
 }
+
+.footer-text{
+  color: #e5e7eb;
+}
+
+
 
 
 
