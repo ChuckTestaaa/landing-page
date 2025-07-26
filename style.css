@@ -62,7 +62,9 @@ button {
   border-radius: 10px;
   color: #f9faf8;
   padding: 15px 32px;
+  font-weight: bold;
   border: none
+  
 }
 
 .links a{
@@ -183,8 +185,43 @@ header .logo {
   
 }
 
+.outer-container{
+  padding: 150px;
+  
+}
 
+.call-to-action{
+  background-color: #3882f6;
+  color: #e5e7eb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px 100px 50px 100px;
+  gap: 200px;
+  border-radius: 10px;
+  
+}
 
+.sign-up{
+  border-style: solid;
+  border-radius: 10px;
+  
+
+}
+
+.text{
+ 
+ 
+  
+}
+
+.text p {
+  margin: 0;
+}
+
+.call-to-action-header {
+  font-size: 20px;
+}
 
 
 
